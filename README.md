@@ -1,6 +1,7 @@
 # csv2po
 
 Only support .csv file yet
+#save .csv file as UTF-8, otherwith some languages would become messy code
 
 Transfer .csv file to .po file, like this.
 
