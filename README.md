@@ -2,10 +2,11 @@
 
 Only support .csv file yet
 
-Transfer .csv file to .po file
+Transfer .csv file to .po file, like this.
 
+<div>
+  <img width="300" height="150" src="https://github.com/SecretsCC/csv2po/blob/master/images/Screen%20Shot%202019-03-19%20at%2010.35.11%20AM.png"/>
+  
+  <img width="300" height="150" src="https://github.com/SecretsCC/csv2po/blob/master/images/Screen%20Shot%202019-03-19%20at%2010.35.32%20AM.png"/>
+</div>
 
-
-![language_file](/Users/cy/Desktop/Screen Shot 2019-03-19 at 10.35.11 AM.png)
-
-![Screen Shot 2019-03-19 at 10.35.32 AM](/Users/cy/Desktop/Screen Shot 2019-03-19 at 10.35.32 AM.png)
