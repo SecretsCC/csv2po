@@ -17,18 +17,23 @@ def read_csv(path):
     textDic = {}
 
     #csv file
-    if path[-3:] == "csv":
-        with open(path, 'r', encoding='UTF-8') as csvfile:
-            reader = csv.reader(csvfile)
-            for row in reader:
-                textDic[row[0]] = row[1]
-        return textDic
-    else:
-        print("Please provide .csv file")
+    try:
+        if path[-3:] == "csv":
+            with open(path, 'r', encoding='UTF-8') as csvfile:
+                reader = csv.reader(csvfile)
+                for row in reader:
+                    textDic[row[0]] = row[1]
+            return textDic
+        else:
+            print("\033[0;30;31m\tPlease provide .csv file.\033[0m")
+    except UnicodeError:
+        print("\033[0;30;31m\tPlease make sure .csv file is in UTF-8 format.\033[0m")
+        os._exit(0)
+
 
 def write_po(fileName,content):
     """
-    output content to .po file
+    write content to .po file
     :path: /LC_MESSAGES/survey.po
     please double check the output file, and move it into right folder after check
     """
@@ -48,4 +53,4 @@ if __name__ == '__main__':
         write_po(file_output_name, content)
     else:
         write_po("survey", content)
-    print("Finished! Check the file under LC_MESSAGES folder")
+    print("Finished! Please Check the file under LC_MESSAGES folder")

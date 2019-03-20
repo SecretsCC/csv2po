@@ -1,6 +1,21 @@
 # csv2po
 
 Only support .csv file yet
+
+
+
+
+
+# Usage
+
+```python
+$ python3 csv2po.py
+```
+
+
+
+
+
 # save .csv file as UTF-8, otherwith some languages would become messy code
 
 Transfer .csv file to .po file, like this.

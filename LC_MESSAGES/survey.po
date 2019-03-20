@@ -229,17 +229,21 @@ msgstr "如果只有一个选项，请点击以继续"
 msgid "Please enter a number."
 msgstr "请输入数字"
 
-msgid "Scroll down for more images."
+msgid "Scroll down for more images. "
 msgstr ""
 
-msgid "Oops!
-
-You are ineligible to take this survey. Our system’s records indicate that you have already taken, or have attempted to take this survey before."
+msgid "Oops!"
 msgstr "抱歉！您无法继续此调查问卷。我们的记录表明您已经完成或曾经参与过此调查。"
 
-msgid "This survey may not function properly with Internet Explorer. Please switch to an updated browser such as Chrome before you continue."
+msgid ""
 msgstr "若您正在使用IE浏览器，此问卷页面可能无法正常显示。为了更好的问卷答题体验，请使用谷歌Chrome浏览器继续填写问卷。"
 
-msgid "Your browser is outdated or you are using native App to open this survey. Please update your browser or open this survey link in a web browser before you continue this survey."
+msgid "You are ineligible to take this survey. Our system’s records indicate that you have already taken, or have attempted to take this survey before."
 msgstr "您正在使用旧版浏览器或本地应用。建议您更新浏览器或在浏览器应用中打开后再继续问卷填写。"
+
+msgid "This survey may not function properly with Internet Explorer. Please switch to an updated browser such as Chrome before you continue."
+msgstr ""
+
+msgid "Your browser is outdated or you are using native App to open this survey. Please update your browser or open this survey link in a web browser before you continue this survey."
+msgstr ""
 
