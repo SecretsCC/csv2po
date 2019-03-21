@@ -86,9 +86,9 @@ class add_content:
                 fout.write('\n')
 
 if __name__ == '__main__':
-    print("1. add new content")
-    print("2. add new language")
-    model = input("please chose mode:")
+    print("1. Transfer from Transcription file")
+    print("2. Transfer from two columns file")
+    model = input("please chose model:")
 
     if(model == "1"):
         file_name = input("Please input the file name you want to transfer(under save folder): ")
@@ -99,7 +99,7 @@ if __name__ == '__main__':
         new_language_file(file_name)
         print("Finished! Please Check the file under LC_MESSAGES folder")
     else:
-        print("\033[0;30;31m\tPlease inlut 1 or 2.\033[0m")
+        print("\033[0;30;31m\tPlease choose right model.\033[0m")
 
 
 
