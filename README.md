@@ -1,7 +1,6 @@
 # csv2po
 
 Only support .csv file yet
-<<<<<<< HEAD
 
 
 
